@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben Strickland</title>
+        <link rel="stylesheet" type="text/css" href="../styles/style.css"/>
+        <link rel="icon" type="image/x-icon" href="../media/favicon.webp">
+    </head>
+    <body>
+        <header> <!--NAV BAR-->
+            <nav>
+                <p id="name">ben strickland</p>
+                <p id="nav-content">
+                    <a href="../pages/index.html" id="a-home">home</a>
+                </p>
+                <p id="nav-content">
+                    <a href="../pages/work.html" id="a-work">work</a>
+                </p>
+                <p id="nav-content">
+                    <a href="../pages/other.html" id="a-more">other</a>
+                </p>
+            </nav>
+            <hr id="hr-line">
+        </header>
+        <div class="container">
+            <h1 id="big-heading">
+                Hey! I'm Ben, a <span class="auto-type"></span>
+            </h1>
+            <div class="about-me">
+                <h1 id="container-head">
+                    About me
+                </h1>
+                <p id="container-content">
+                    My passion for Computer Science started when I was still in middle 
+                    school, messing around with my files, building computers and being my families
+                    personal IT guy. At this age I would attempt to pick up a programming language, 
+                    but never fully comitted and it wasn't until high school until I learned some 
+                    basic Java!
+                </p>
+                <p id="container-content">
+                    I am currently studying at <a href="https://www.dal.ca/" id="index-a">Dalhousie University</a>,
+                    purseing my passion for Computer Science. Since starting university, I have developed
+                    a passion for Web Development and Software Development. My main focus these days is building 
+                    fun projects while applying what I have learned in my first year!
+                </p>
+                <p id="container-content">
+                    Away from all the screens, I like to spend my time outdoors, going for runs and 
+                    weight lifting. When I have the chance and the weather is right, I love to go skiing,
+                    canoeing, kayaking! and sitting by the fire at night time!
+                </p>
+            </div>
+            <hr id="hr-line">
+            <h1 id="container-head">
+                Recent activities
+            </h1>
+            <div class="activity-details">
+                <p id="container-activity">
+                    <b>React Native Certificate</b>
+                </p>
+                <p id="container-activity">
+                    May 7-21, 2024
+                </p>
+                <p id="activity-tech">
+                    React Native
+                </p>
+            </div>
+            <p id="activity-content">
+                Throughout the month of May, I will be attending 
+                <a href="https://shiftkeylabs.ca/" id="index-a">ShiftKey Labs'</a> React Native 
+                certificate sessions! In this time, I will be learning how to develop cross-platform 
+                mobile applications using React Native, By the end of the month, I will (ideally) deploy an 
+                app by the end of the monthand recieve the certificate!
+            </p>
+            <hr id="hr-line">
+            <footer>
+                <p id="footer-p">
+                    links
+                    <a href="mailto:ben.strickland@dal.ca" id="index-a">email</a>
+                    <a href="https://github.com/benpjstrickland/" id="index-a">github</a>
+                    <a href="https://www.linkedin.com/in/benpjstrickland/" id="index-a">linkedin</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+    <!--Script for animated text writing-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed(".auto-type", {
+            strings : ["Software Developer", "Web Developer", "Web Designer", "Tech Enthusiast"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            loop: true
+        })
+    </script>
+    <script src="../scripts/script.js"></script>
+</html>

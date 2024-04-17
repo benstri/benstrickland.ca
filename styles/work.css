@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(28, 22, 120);
+    color: white;
+    padding-right: min(300px, 20%);
+    padding-left: min(300px, 20%);
+}
+
+@media only screen and (max-width: x) { /* tablet mode */
+
+}
+
+@media only screen and (max-width: x) { /* phone mode */
+
+}
+
+::selection {
+    background:rgb(133, 118, 255);
+}
+
+nav {
+    padding-top:15px;
+    padding-bottom:5px;
+    width:100%;
+    font-family: monospace;
+    font-size: large;
+    display:flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#a-work {
+    text-decoration: underline;
+    text-decoration-thickness:2px;
+}
+
+#name {
+    font-weight: bold;
+    padding-right:40px;
+}
+
+#nav-content {
+    padding-right:30px;
+}
+
+#nav-line {
+    color: white;
+    width:100%;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#project-h {
+    padding-top:10px;
+    font-size: x-large;
+    font-family: monospace;
+}
