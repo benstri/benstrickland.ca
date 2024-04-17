@@ -1,13 +1,9 @@
 # Welcome to benstrickland.com!
 
----
-
 ## Stack
 
 ### HTMl, CSS, JavaScript
 ### This project also uses typed.js from https://github.com/mattboldt/typed.js
-
----
 
 ## License
 
