@@ -39,6 +39,11 @@ nav {
     display:flex;
 }
 
+#hr-line {
+    color:white;
+    width:100%;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -78,16 +83,41 @@ a {
 footer {
     display:flex;
     padding-bottom: 50px;
+    align-items: center;
 }
 
-#footer-p {
+.footer-p {
+    display:flex;
     font-size: large;
     font-family: monospace;
+    align-items: center;
+}
+
+#footer-a {
+    font-weight: bold;
+    
+}
+
+#footer-p-contents {
     padding-right: 10px;
 }
 
 .project-head {
     display: flex;
     font-size: large;
+    align-items: center;
+    font-family: monospace;
+    font-size:x-large;
+}
+
+#project-details {
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+#project-content {
     margin: 0px;
+    font-family: Arial;
+    padding-bottom: 20px;
+    font-size: large;
 }

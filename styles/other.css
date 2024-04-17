@@ -26,6 +26,11 @@ a, a:visited {
     transition-duration: 300ms;
 }
 
+#a-other {
+    text-decoration: underline;
+    text-decoration-thickness:2px;
+}
+
 nav {
     padding-top:15px;
     padding-bottom:5px;
@@ -40,9 +45,8 @@ a {
     text-decoration: none;
 }
 
-#a-more {
-    text-decoration: underline;
-    text-decoration-thickness:2px;
+#other-a {
+    font-weight: bold;
 }
 
 #name {
@@ -67,7 +71,7 @@ a {
 #container-head {
     color:rgb(123, 201, 255);
     padding-top:10px;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: monospace;
 }
 
@@ -85,10 +89,21 @@ a {
 footer {
     display:flex;
     padding-bottom: 50px;
+    align-items: center;
 }
 
-#footer-p {
+.footer-p {
+    display:flex;
     font-size: large;
     font-family: monospace;
+    align-items: center;
+}
+
+#footer-a {
+    font-weight: bold;
+    
+}
+
+#footer-p-contents {
     padding-right: 10px;
 }
