@@ -17,6 +17,15 @@ body {
     background:rgb(133, 118, 255);
 }
 
+a:hover {
+    color:black;
+    background-color: rgb(123, 201, 255);
+}
+
+a, a:visited {
+    transition-duration: 300ms;
+}
+
 nav {
     padding-top:15px;
     padding-bottom:5px;
@@ -69,7 +78,17 @@ a {
     padding-bottom:10px;
 }
 
-
 #more-a {
     text-decoration: underline;
+}
+
+footer {
+    display:flex;
+    padding-bottom: 50px;
+}
+
+#footer-p {
+    font-size: large;
+    font-family: monospace;
+    padding-right: 10px;
 }

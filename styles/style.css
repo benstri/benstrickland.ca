@@ -79,13 +79,13 @@ span {
 #container-head {
     color:rgb(123, 201, 255);
     padding-top:10px;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: monospace;
 }
 
 #activity-content {
     font-family: Arial;
-    font-size: large;
+    font-size: medium;
     line-height: 25px;
 }   
 
@@ -96,6 +96,7 @@ span {
 
 #container-activity {
     padding-right:10px;
+    font-size: large;
 }
 
 #activity-tech {
@@ -131,7 +132,7 @@ footer {
 }
 
 #footer-p {
-    font-size: medium;
+    font-size: large;
     font-family: monospace;
     padding-right: 10px;
 }
