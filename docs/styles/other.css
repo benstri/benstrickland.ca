@@ -108,4 +108,8 @@ footer {
         padding-left: min(30px, 100%);
         padding-right: min(30px, 100%);
     }
+
+    nav {
+        font-size: 15px;
+    }
 }
