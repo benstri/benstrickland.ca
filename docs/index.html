@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ben Strickland</title>
         <link rel="stylesheet" type="text/css" href="../styles/style.css"/>
-        <link rel="icon" type="image/x-icon" href="../media/favicon.webp">
+        <link rel="icon" type="image/x-icon" href="../media/benTen-ezgif.com-crop(1).gif">
     </head>
     <body>
         <header> <!--NAV BAR-->
@@ -25,7 +25,7 @@
         </header>
         <div class="container">
             <h1 id="big-heading">
-                Hey! I'm Ben, a <span class="auto-type"></span>
+                Hey! I'm Ben, a <span class="auto-type" id="type-writter"></span>
             </h1>
             <div class="about-me">
                 <h1 id="container-head">
@@ -87,7 +87,6 @@
                     <p id="footer-p-contents">
                         <a href="https://www.linkedin.com/in/benpjstrickland/" id="footer-a">linkedin</a>
                     </p>
-                    
                 </p>
             </footer>
         </div>
@@ -96,12 +95,18 @@
     <!--Script for animated text writing-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        let typed = new Typed(".auto-type", {
-            strings : ["Software Developer", "Web Developer", "Web Designer", "Tech Enthusiast"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            loop: true
-        })
+        if(window.innerWidth > 866) {
+            let typed = new Typed(".auto-type", {
+                strings : ["Software Developer", "Web Developer", "Web Designer", "Tech Enthusiast"],
+                typeSpeed: 80,
+                backSpeed: 80,
+                loop: true
+            })
+        }
+        else {
+            document.getElementById("type-writter").innerHTML = "Software Developer";
+        }
+        console.log(window.innerWidth); // size of browser, use conditional
     </script>
     <script src="../scripts/script.js"></script>
 </html>

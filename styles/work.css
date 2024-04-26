@@ -1,16 +1,9 @@
 body {
-    background-color: rgb(28, 22, 120);
-    color: white;
-    padding-right: min(300px, 20%);
+    transition: 0.3s;
+    background-color: rgb(34, 40, 49);
+    color: rgb(238, 238, 238);
     padding-left: min(300px, 20%);
-}
-
-@media only screen and (max-width: x) { /* tablet mode */
-
-}
-
-@media only screen and (max-width: x) { /* phone mode */
-
+    padding-right: min(300px, 20%);
 }
 
 ::selection {
@@ -37,6 +30,7 @@ nav {
     font-family: monospace;
     font-size: large;
     display:flex;
+    align-items: center;
 }
 
 #hr-line {
@@ -78,6 +72,7 @@ a {
     padding-top:10px;
     font-size: xx-large;
     font-family: monospace;
+    
 }
 
 footer {
@@ -107,7 +102,7 @@ footer {
     font-size: large;
     align-items: center;
     font-family: monospace;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 #project-details {
@@ -120,4 +115,19 @@ footer {
     font-family: Arial;
     padding-bottom: 20px;
     font-size: large;
+}
+
+#work-p {
+    font-family: Arial;
+    font-size: large;
+    line-height: 25px;
+    padding-bottom:10px;
+}
+
+@media only screen and (max-width: 800px) { /* tablet mode / phone mode */
+    body {
+        transition: 0.3s;
+        padding-left: min(30px, 100%);
+        padding-right: min(30px, 100%);
+    }
 }
