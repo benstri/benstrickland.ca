@@ -55,7 +55,7 @@ a {
 
 .container {
     padding-left:10px;
-    padding-right: 10px;
+    padding-right:10px;
 }
 
 #big-heading {
@@ -84,10 +84,11 @@ span {
 #container-activity, #activity-tech {
     font-family: monospace;
     font-size: medium;
+    padding:0px;
+    margin:0px;
 }
 
 #container-activity {
-    padding-right:10px;
     font-size: large;
 }
 
@@ -97,9 +98,14 @@ span {
     border-radius: 5px;
 }
 
+.tech-container {
+    padding-bottom:20px;
+}
+
 .activity-details {
     align-items: center;
     display: flex;
+    gap:10px;
 }
 
 #container-content {
@@ -122,7 +128,7 @@ span {
 footer {
     display:flex;
     padding-bottom: 50px;
-    align-items: center;
+    align-items:center;
 }
 
 .footer-p {
@@ -138,6 +144,10 @@ footer {
 
 #footer-p-contents {
     padding-right: 10px;
+}
+
+li::marker {
+    color:white;
 }
 
 @media only screen and (max-width: 866px) { /* phone mode */
@@ -173,4 +183,10 @@ footer {
         font-size:17px;
 
     }
+
+    .activity-details {
+        flex-direction: column;
+        align-items: start;
+    }
 }
+

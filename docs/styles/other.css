@@ -112,4 +112,12 @@ footer {
     nav {
         font-size: 15px;
     }
+
+    #container-head {
+        font-size: 24px;
+    }
+
+    #container-content {
+        font-size: 19px;
+    }
 }
