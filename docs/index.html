@@ -10,70 +10,153 @@
     <body>
         <header> <!--NAV BAR-->
             <nav>
-                <p id="name">ben strickland</p>
-                <p id="nav-content">
-                    <a href="index.html" id="a-home">home</a>
-                </p>
-                <p id="nav-content">
-                    <a href="pages/work.html" id="a-work">work</a>
-                </p>
-                <p id="nav-content">
-                    <a href="pages/other.html" id="a-more">other</a>
-                </p>
+                <p id="name">Ben Strickland</p>
+                <div class="page-links">
+                    <p id="nav-content">
+                        <a href="index.html" id="a-home">Home</a>
+                    </p>
+                    <p id="nav-content">
+                        <a href="#work-head" id="a-work">Work</a>
+                    </p>
+                    <p id="nav-content">
+                        <a href="#contact-head" id="a-contact">Contact</a>
+                    </p>
+                </div>
             </nav>
             <hr id="hr-line">
         </header>
         <div class="container">
-            <h1 id="big-heading">
-                Hey! I'm Ben, a <span class="auto-type" id="type-writter"></span>
-            </h1>
-            <div class="about-me">
-                <h1 id="container-head">
-                    About me
+            <div class="landing">
+                <p id="landing-p">
+                    Hello there! My name is
+                <h1 id="landing-heading">
+                    Ben Strickland,
                 </h1>
-                <p id="container-content">
-                    My passion for Computer Science started when I was still in middle 
-                    school, messing around with my files, building computers and being my families
-                    personal IT guy. At this age I would attempt to pick up a programming language, 
-                    but never fully comitted and it wasn't until high school until I learned some 
-                    basic Java!
+                <h1 id="landing-typer">
+                    <span class="auto-type" id="type-writter"></span>
+                </h1>
+                <p id="landing-content">
+                    I am currently a first year Computer Science student studying at 
+                    <a href="https://www.dal.ca/" id="index-a">Dalhousie University</a> with
+                    a passion for web development, mobile development, and cyber security. I am also a freelance
+                    web developer, building websites for small/local businesses.
                 </p>
-                <p id="container-content">
-                    I am currently studying at <a href="https://www.dal.ca/" id="index-a">Dalhousie University</a>,
-                    purseing my passion for Computer Science. Since starting university, I have developed
-                    a passion for Web Development and Software Development. My main focus these days is building 
-                    fun projects while applying what I have learned in my first year!
-                </p>
-                <p id="container-content">
-                    Away from all the screens, I like to spend my time outdoors, going for runs and 
-                    weight lifting. When I have the chance and the weather is right, I love to go skiing,
-                    canoeing, kayaking! and sitting by the fire at night time!
-                </p>
+                <p id="scroll-p">Scroll down</p>
+                <div class="scroll-down">
+                    <span class="mouse">
+                        <span class="mouse-wheel"></span>
+                    </span>
+                </div>
             </div>
-            <hr id="hr-line">
-            <h1 id="container-head">
-                Recent activities
+            <h1 id="about-head">
+                About me
             </h1>
-            <div class="activity-details">
-                <p id="container-activity">
-                    <b>React Native Certificate</b>
-                </p>
-                <p id="container-activity">
-                    May 7-21, 2024
-                </p>
-                <div class="tech-container">
-                    <p id="activity-tech">
-                        React Native
+            <div class="about-container">
+                <img src="images/me.jpg" id="about-img" height="400">
+                <div class="about-me">
+                    <p id="about-content">
+                        My passion for Computer Science started when I was still in middle 
+                        school, messing around with my files, building computers and being my families
+                        personal IT guy. At this age I would attempt to pick up a programming language, 
+                        but never fully comitted and it wasn't until high school until I learned some 
+                        basic Java!
+                    </p>
+                    <p id="about-content">
+                        I am currently studying at <a href="https://www.dal.ca/" id="index-a">Dalhousie University</a>,
+                        pursuing my passion for Computer Science. Since starting university, I have developed
+                        a passion for Web Development and Software Development. My main focus these days is building 
+                        fun projects, applying what I have learned in my first year!
+                    </p>
+                    <p id="about-content">
+                        Away from all the screens, I like to spend my time outdoors, going for runs and 
+                        weight lifting. When I have the chance and the weather is right, I love to go skiing,
+                        canoeing, kayaking! and sitting by the fire at night time!
                     </p>
                 </div>
             </div>
-            <p id="activity-content">
-                Throughout the month of May, I will be attending 
-                <a href="https://shiftkeylabs.ca/" id="index-a">ShiftKey Labs'</a> React Native 
-                certificate sessions! In this time, I will be learning how to develop cross-platform 
-                mobile applications using React Native, By the end of the month, I will (ideally) deploy an 
-                app by the end of the monthand recieve the certificate!
-            </p>
+            
+            <div id="recent-activities">
+                <h1 id="activity-head">
+                    Recent activities
+                </h1>
+                <div class="activity-details">
+                    <p id="container-activity">
+                        <b>React Native Certificate</b>
+                    </p>
+                    <p id="container-activity">
+                        May 7-21, 2024
+                    </p>
+                    <div class="tech-container">
+                        
+                    </div>
+                </div>
+                <p id="activity-content">
+                    Throughout the month of May, I will be attending 
+                    <a href="https://shiftkeylabs.ca/" id="index-a">ShiftKey Labs'</a> React Native 
+                    certificate sessions! In this time, I will be learning how to develop cross-platform 
+                    mobile applications using React Native. By the end of the month, I will deploy an 
+                    app and recieve the certificate!
+                </p>
+            </div>
+            <hr id="hr-line">
+            <div class="work">
+                <h1 id="work-head">
+                    Projects
+                </h1>
+                <div class="project-head">
+                    <p id="project-name">
+                        <a href="https://github.com/benpjstrickland/benstrickland.com" id="work-a">benstrickland.ca</a>
+                    </p>
+                    <p id="project-details">
+                        Launch Date, 2024
+                    </p>
+                </div>
+                <p id="project-content">
+                    A personal portfolio reflecting on myself and my experience with Web Development!
+                </p>
+                <h1 id="project-head">
+                    Work experience
+                </h1>
+                <p id="experience-content">
+                    Currently I have no work experience within the field of software development or 
+                    computer science. However, I am currently open to opportunities! If you have any 
+                    inquiries regarding work experience, please feel free to email me, or message me on 
+                    <a href="https://www.linkedin.com/in/benpjstrickland/" id="work-a">LinkedIn</a>!
+                </p>
+            </div>
+            <hr id="hr-line">
+            <div class="contact">
+                <h1 id="contact-head">
+                    Contact
+                </h1>
+                <p id="contact-content">
+                    The best way to reach me would be via email. 
+                    Response time may vary depending on the day and my
+                    current work load, however you will recieve a response
+                    within 2-3 business days! Feel free to send an email to 
+                    <a href="mailto:ben.strickland@dal.ca" id="other-a">ben.strickland@dal.ca</a>
+                    for all inquiries! 
+                </p>
+                <h1 id="contact-head">
+                    LinkedIn
+                </h1>
+                <p id="conntact-content">
+                    <a href="https://www.linkedin.com/in/benpjstrickland/" id="other-a">Connect with me!</a> Here you can see my academic/computer science related activites,
+                    events and cotent. You will also grasp a greater understanding of myself and my background! 
+                </p>
+                <h1 id="contact-head">
+                    Insight
+                </h1>
+                <p id="contact-content">
+                    This site is built with <a href="https://mattboldt.github.io/typed.js/" id="other-a">typed.js</a>
+                    and is hosted through GitHub Pages. Website layout inspired from 
+                    <a href="https://kio.dev/" id="other-a">kio.dev</a> and
+                    <a href="https://www.raghavsampangi.com/" id="other-a">raghavsampangi.com</a>
+                    respectively. Colour palette is from 
+                    <a href="https://colorhunt.co/palette/1c16788576ff7bc9ffa3ffd6" id="other-a">colorhunt.co</a>.
+                    This site will be updated frequently, so keep an eye out for new details!
+                </p>
+            </div>
             <hr id="hr-line">
             <footer>
                 <div class="footer-p">
@@ -99,7 +182,7 @@
     <script>
         if(window.innerWidth > 866) {
             let typed = new Typed(".auto-type", {
-                strings : ["Software Developer", "Web Developer", "Web Designer", "Tech Enthusiast"],
+                strings : ["a Software Developer", "a Web Developer", "a Web Designer", "a Tech Enthusiast"],
                 typeSpeed: 80,
                 backSpeed: 80,
                 loop: true
