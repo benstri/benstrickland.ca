@@ -64,63 +64,22 @@ a {
 #landing-p {
     margin-top:75px;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 #landing-heading, #landing-typer {
     font-family: monospace;
-    font-size:60px;
+    font-size:75px;
 } 
 
 #landing-content {
     font-family: Arial;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 #landing-typer {
     color:rgb(123, 201, 255);
-}
-
-.scroll-down {
-    display:flex;
-    justify-content: center;
-}
-
-#scroll-p {
-    margin-top:75px;
-    font-family: Arial;
-    text-align: center;
-}
-
-.mouse {
-    width:25px;
-    height:50px;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    display:flex;
-}
-
-.mouse-wheel {
-    display:block;
-    width:10px;
-    height:10px;
-    background-color: #fff;
-    border-radius: 50%;
-    margin:auto;
-    animation: move-wheel 1s
-    linear infinite;
-}
-
-@keyframes move-wheel {
-    0% {
-        opacity: 0;
-        transform: translateY(-1rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(1rem);
-    }
 }
 
 #about-head, #activity-head {
@@ -174,13 +133,6 @@ a {
 
 #index-a {
     color:rgb(133, 118, 255);
-}
-
-#project-h {
-    color:rgb(123, 201, 255);
-    padding-top:10px;
-    font-size: xx-large;
-    font-family: monospace;
 }
 
 .project-head {
