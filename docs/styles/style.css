@@ -149,6 +149,9 @@ a {
 
 #project-name {
     font-size: x-large;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(123, 201, 255);
 }
 
 #project-content {
