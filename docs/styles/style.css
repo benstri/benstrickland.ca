@@ -2,8 +2,8 @@ body {
     transition: 0.3s;
     background-color: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
-    padding-left: min(150px, 20%);
-    padding-right: min(150px, 20%);
+    margin-left: min(300px, 20%);
+    margin-right: min(300px, 20%);
 }
 
 ::selection {
@@ -54,15 +54,11 @@ a {
     margin-right:10px;
 }
 
-.main-screen {
-    height: 100vh;
-}
-
 .landing {
     margin-top:30px;
     justify-content: center;
     align-items: center;
-    margin-bottom:200px;
+    margin-bottom:30vh;
 }
 
 #landing-p {
@@ -86,7 +82,7 @@ a {
     color:rgb(123, 201, 255);
 }
 
-#about-head, #project-head  {
+#about-head, #project-head, #contact-head {
     color:rgb(123, 201, 255);
     font-size: 30px;
     font-family: monospace;
@@ -94,7 +90,7 @@ a {
 }
 
 
-#about-content, #project-details  {
+#about-content, #project-details, #contact-content  {
     font-family: Arial;
     font-size: 20px;
     line-height: 25px;
@@ -104,7 +100,7 @@ a {
     display: flex;
     gap:25px;
     margin-top:50px;
-    margin-bottom:150px;
+    margin-bottom:30vh;
 }
 
 #about-img {
@@ -117,7 +113,6 @@ a {
     transform: scale(1.1);
     margin-right: 30px;
 }
-
 
 #container-activity {
     font-family: monospace;
@@ -133,6 +128,27 @@ a {
 
 #index-a {
     color:rgb(133, 118, 255);
+}
+
+.my-stack {
+    margin-bottom: 30vh;
+}
+
+.my-stack p {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work {
+    margin-bottom:20vh;
 }
 
 .project-head {
@@ -161,22 +177,19 @@ a {
     font-size: large;
 }
 
-#work-p {
-    font-family: Arial;
-    font-size: large;
-    line-height: 25px;
-    padding-bottom:10px;
+.contact {
+    margin-bottom:20vh;
 }
 
 footer {
     display:flex;
-    padding-bottom: 50px;
+    margin-bottom:10vh;
     align-items:center;
 }
 
 .footer-p {
     display:flex;
-    font-size: large;
+    font-size: 18px;
     font-family: monospace;
     align-items: center;
 }
