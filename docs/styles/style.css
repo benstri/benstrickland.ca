@@ -2,8 +2,8 @@ body {
     transition: 0.3s;
     background-color: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
-    margin-left: min(300px, 20%);
-    margin-right: min(300px, 20%);
+    margin-left: min(175px, 20%);
+    margin-right: min(175px, 20%);
 }
 
 ::selection {
