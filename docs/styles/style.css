@@ -96,6 +96,10 @@ a {
     line-height: 25px;
 }
 
+#contact-content {
+    text-align: center;
+}
+
 .about-container {
     display: flex;
     gap:25px;
