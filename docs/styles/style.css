@@ -141,9 +141,7 @@ a {
 
 .tech-list {
     display: flex;
-    justify-content: center;
     gap: 20px;
-
     overflow: auto;
     white-space: nowrap;
 }
