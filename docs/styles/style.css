@@ -144,6 +144,9 @@ a {
     gap: 20px;
     overflow: auto;
     white-space: nowrap;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .work {
