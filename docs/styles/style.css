@@ -16,7 +16,7 @@ a, a:visited {
     transition-duration: 300ms;
 }
 
-a:hover {
+#nav-content:hover {
     color:white;
     text-decoration: underline;
 }
@@ -28,6 +28,35 @@ nav {
     font-family: monospace;
     font-size: 17px;
     display: flex;
+}
+
+i {
+    transition:0.2s;
+}
+
+.devicon-linkedin-plain:hover {
+    color:rgb(10, 102, 194);
+}
+
+.devicon-github-original:hover {
+    color:rgb(110, 84, 148);
+}
+
+.nav-left {
+    display:flex;
+    gap:30px;
+}
+
+.nav-right {
+    display:flex;
+    gap:10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+i {
+    font-size: 35px;
 }
 
 .page-links {
@@ -90,7 +119,7 @@ a {
 }
 
 
-#about-content, #project-details, #contact-content  {
+#about-content, #project-details, #contact-content, #project-content  {
     font-family: Arial;
     font-size: 20px;
     line-height: 25px;
@@ -126,6 +155,7 @@ a {
 
 #index-a {
     color:rgb(133, 118, 255);
+    text-decoration: underline;
 }
 
 .my-stack {
@@ -175,33 +205,11 @@ a {
 #project-content {
     margin: 0px;
     font-family: Arial;
-    padding-bottom: 20px;
-    font-size: large;
+    padding-bottom: 3vh;
 }
 
 .contact {
     margin-bottom:20vh;
-}
-
-footer {
-    display:flex;
-    margin-bottom:10vh;
-    align-items:center;
-}
-
-.footer-p {
-    display:flex;
-    font-size: 18px;
-    font-family: monospace;
-    align-items: center;
-}
-
-#footer-a {
-    font-weight: bold;
-}
-
-#footer-p-contents {
-    padding-right: 10px;
 }
 
 @media screen and (max-width: 1200px) { /* changes image of me to column fled */
@@ -257,7 +265,8 @@ footer {
     }
 
     #about-img {
-        height:300px;
+        justify-content: center;
+        max-height:300px;
     }
 
     #project-name {
@@ -272,12 +281,15 @@ footer {
         width:35px;
     }
 
-    #footer-p-contents {
-        font-size: 16px;
+}
+
+@media screen and (max-width: 575px) {
+    #about-img {
+        max-height: 250px;
     }
 }
 
-@media screen and (max-width: 420px) { /* mobile view */
+@media screen and (max-width: 430px) { /* mobile view */
     body {
         margin-left: min(10px, 100%);
         margin-right: min(10px, 100%);
