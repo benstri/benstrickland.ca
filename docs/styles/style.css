@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    height: auto;
     transition: 0.3s;
     background-color: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
@@ -22,11 +23,13 @@ a, a:visited {
 }
 
 header {
-    width:100%;
+    position: sticky;
+    height:auto;
+    width: 100%;
+    top:0;
 }
 
 nav {
-    width:100%;
     padding-top:15px;
     padding-bottom:5px;
     width:100%;
@@ -81,6 +84,7 @@ i {
     display: flex;
     gap:30px;
     margin-left: auto;
+    margin-right: 0;
 }
 
 a {
@@ -103,7 +107,7 @@ a {
 }
 
 .landing {
-    margin-top:17vh;
+    margin-top:15vh;
     justify-content: center;
     align-items: center;
     margin-bottom:30vh;
@@ -230,6 +234,10 @@ a {
     margin-bottom:20vh;
 }
 
+@media screen and (max-width: 575px) {
+
+}
+
 @media screen and (max-width: 1200px) { /* changes image of me to column fled */
     .about-container {
         display: flex;
@@ -287,7 +295,9 @@ a {
         flex-direction: column;
         background-color: rgb(30, 35, 45);
         width:100%;
+        
         text-align: center;
+        align-items: center;
         transition: 0.3s;
         padding-bottom:20px;
     }
@@ -302,7 +312,7 @@ a {
     }
 
     .landing, .about-container, .my-stack {
-        margin-top:10vh;
+        margin-top:20vh;
         margin-bottom:20vh;
     }
 
@@ -322,7 +332,7 @@ a {
         font-size: 25px;
     }
 
-    #about-content, #project-details, #contact-content {
+    #about-content, #contact-content, #project-content {
         font-size: 18px;
     }
 
