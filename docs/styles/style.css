@@ -8,6 +8,10 @@ body {
     margin-right: min(175px, 20%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     color:white;
     background:rgb(133, 118, 255);
